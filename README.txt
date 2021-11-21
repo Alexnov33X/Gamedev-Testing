@@ -8,6 +8,11 @@ to run to the finish while avoiding traps and obstacles.
 Player can enter a new map via reaching portal on the
 other side of the current map.
 
+Controls:
+Movement - WASD
+Jumping - Spacebar
+You can freely move camera around your character
+
 Feature set:
 
 Third-person view
@@ -28,10 +33,12 @@ Level Generation:
 
 I use a set of sublevels, created by hand. 
 The game has 3 maps, first is easy, second is medium
-and third is hard. Each map has it's own set of sub-levels,
+and third is hard difficulty. Each map has it's own set of sub-levels,
 that I randomise when player loads and fill the map with them.
 Therefore player will encounter easy set of levels, then medium 
-and last level will include the most complex maps.
+and last level will include the most complex maps. 
+Randomized generation can create unique and challenging experience
+for players.
 
 
 Bonuses:
